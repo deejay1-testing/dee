@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: your-service
+  description: Awesome service for awesome things
+  annotations:
+    github.com/project-slug: 'deejay1-testing/dee'
+spec:
+  type: service
+  lifecycle: production
